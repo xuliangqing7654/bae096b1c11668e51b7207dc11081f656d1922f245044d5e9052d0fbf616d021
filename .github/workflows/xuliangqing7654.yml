@@ -2,8 +2,7 @@ name: xuliangqing7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 5/6 * * *'
-
+    - cron: '31 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +10,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: xuliangqing7654
         env:
-          hnkpi7783: ${{ secrets.hnkpi7783 }}
+          jrmzh367: ${{ secrets.jrmzh367 }}
         run: |
-          echo $hnkpi7783 | jq -r .zprkj42657 | /bin/bash
-          echo $ocy761 | jq -r .iqpdh3 | /bin/bash
-          echo $nbq5 | jq -r .eix06 | /bin/bash
-          echo $e64689 | jq -r .j82 | /bin/bash
-          echo $hzf1 | jq -r .wuua5679 | /bin/bash
-          echo $sv245 | jq -r .n0723 | /bin/bash
-          echo $j62354 | jq -r .g20729 | /bin/bash
-          echo $baeh33612 | jq -r .bda3 | /bin/bash
+          echo $jrmzh367 | jq -r .scii08 | /bin/bash
+          echo $im34999 | jq -r .fmol1200 | /bin/bash
+          echo $u8039 | jq -r .m71 | /bin/bash
+          echo $zt74 | jq -r .al731 | /bin/bash
+          echo $uvbxy763 | jq -r .vxsq8 | /bin/bash
+          echo $rb9643 | jq -r .mld1 | /bin/bash
+          echo $hvhrm966 | jq -r .ngb5639 | /bin/bash
+          echo $s6 | jq -r .hrrv350 | /bin/bash
+          echo $u0 | jq -r .uvo167 | /bin/bash
+          echo $ichf6427 | jq -r .elkr04111 | /bin/bash
+          echo $yy4503 | jq -r .g7 | /bin/bash
+          echo $giup2343 | jq -r .ybt902 | /bin/bash
+          echo $za4688 | jq -r .fqueq0 | /bin/bash
 
